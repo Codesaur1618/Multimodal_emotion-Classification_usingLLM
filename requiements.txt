@@ -1,0 +1,15 @@
+Flask
+transformers
+torch
+numpy
+librosa
+pydub
+moviepy
+ffmpeg-python
+scikit-learn
+soundfile
+SpeechRecognition
+python-dotenv
+pandas
+opencv-python
+matplotlib
