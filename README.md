@@ -1,27 +1,13 @@
-Sure! Here's the editable Markdown version ready to copy-paste into your `README.md` file:
-
-```markdown
 # 🎭 Multimodal Emotion Analysis with LLaMA Inference
 
 This Flask-based web application performs **emotion analysis** from **text**, **audio**, and **video** inputs. It leverages multiple models to detect emotional states, identify underlying causes, and generate natural, human-like inferences using the **LLaMA language model** via Ollama.
 
----
-
 ## 🚀 Features
 
-- **Text Emotion Detection**  
-  Classifies emotions from user-inputted text and extracts the likely cause.
-
-- **Audio Emotion Analysis**  
-  Converts audio to a standard format, detects vocal emotion, transcribes speech, and analyzes text emotion.
-
-- **Video Emotion Detection**  
-  Extracts visual emotions from facial cues, analyzes speech audio, and integrates transcription-based emotion classification.
-
-- **LLM-Based Inference**  
-  Summarizes emotional findings in a natural, friendly tone using LLaMA via Ollama.
-
----
+- **Text Emotion Detection**: Classifies emotions from user-inputted text and extracts the likely cause.  
+- **Audio Emotion Analysis**: Converts audio to a standard format, detects vocal emotion, transcribes speech, and analyzes text emotion.  
+- **Video Emotion Detection**: Extracts visual emotions from facial cues, analyzes speech audio, and integrates transcription-based emotion classification.  
+- **LLM-Based Inference**: Summarizes emotional findings in a natural, friendly tone using LLaMA via Ollama.
 
 ## 🛠️ Tech Stack
 
@@ -30,29 +16,23 @@ This Flask-based web application performs **emotion analysis** from **text**, **
 - **Emotion Models**: Pre-trained models for audio, text, and visual emotion detection  
 - **LLM Integration**: Local Ollama installation running `llama3.2`  
 
----
-
 ## 🧪 Requirements
 
 - Python 3.7+
 - Install dependencies:
-  ```bash
+  ```
   pip install -r requirements.txt
   ```
-- Local installation of **[Ollama](https://ollama.com/)** with `llama3.2` model
-- Folders: Ensure `uploads/` directory exists
-
----
+- Local installation of **[Ollama](https://ollama.com/)** with the `llama3.2` model
+- Ensure `uploads/` directory exists in your project folder
 
 ## 📦 Running the App
 
-```bash
+```
 python app.py
 ```
 
-Navigate to `http://127.0.0.1:5000` in your browser.
-
----
+Then open your browser and go to: `http://127.0.0.1:5000`
 
 ## 📁 Project Structure
 
@@ -68,20 +48,14 @@ Navigate to `http://127.0.0.1:5000` in your browser.
 └── README.md
 ```
 
----
-
 ## 📌 Notes
 
-- Ensure correct path to Ollama executable (`ollama.exe`) is set in `generate_llama_inference()`
-- Use proper error handling for media file processing
-- Extendable to integrate other LLMs or emotion classifiers
-
----
+- Update the path to your Ollama installation (`ollama.exe`) in `generate_llama_inference()`  
+- Make sure media files are properly handled and cleaned up  
+- Easily extendable to support additional models or LLMs
 
 ## 🧠 Credits
 
 Made by **Abisek**  
 Inspired by research in AI-driven emotion understanding and contextual reasoning.
-```
 
-Let me know if you want sections like screenshots, license info, or contribution guidelines added!
