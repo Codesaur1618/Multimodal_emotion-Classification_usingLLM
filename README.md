@@ -56,6 +56,6 @@ Then open your browser and go to: `http://127.0.0.1:5000`
 
 ## 🧠 Credits
 
-Made by **Abisek**  
+Made by **Abisek and Pawish**  
 Inspired by research in AI-driven emotion understanding and contextual reasoning.
 
